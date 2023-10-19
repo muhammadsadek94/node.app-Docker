@@ -19,7 +19,7 @@ redisClient.connect();
 
 //connect db
 const DB_USER = 'root';
-const DB_PASSWORD = 'example';
+const DB_PASSWORD = 'example-';
 const DB_PORT = '5423';
 const DB_HOST = 'postgres'           ## we can add service name like `mongo` because network when restart docker it was changed so service name mapping new ips
 const URI = `postgresql://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}`;
